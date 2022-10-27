@@ -1,0 +1,13 @@
+name = "nfts"
+main = "src/index.ts"
+compatibility_date = "2022-08-29"
+node_compat = true
+usage_model = "unbound"
+
+[[kv_namespaces]]
+binding = "CF_KV_BLOCKCHAIN"
+preview_id = "cbae0013501840f6b7d14f5e31a812b7"
+id = "cbae0013501840f6b7d14f5e31a812b7"
+
+[triggers]
+crons = ["* * * * *"]
